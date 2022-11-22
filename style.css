@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+}
+
+.hero-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./nubelson-fernandes-iE71-TMrrkE-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+h1 {
+ font-family:'Oswald', sans-serif; 
+ color: #fff;
+ font-size: 60px;
+}
+nav {
+    width: 50%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+
+}
+
+li {
+    font-family:'Oswald', sans-serif; 
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+li:hover {
+    color: #d870db;
+}
+.arrows{
+    width: 60px;
+    height: 172px;
+    bottom: 20px;
+
+}
+
+.arrows path {
+    stroke: #fff;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+ 0% {opacity: 0;}
+ 40%{opacity: 1;}
+ 60%{opacity: 0;}
+ 100%{opacity: 0;}
+}
+@-webkit-keyframes arrow
+{
+ 0% {opacity: 0;}
+ 40%{opacity: 1;}
+ 60%{opacity: 0;}
+ 100%{opacity: 0;}
+}
+
+.arrows path.a1{
+    animation-delay:  -1s;
+    -webkit-animation-delay: -1s;
+}
+.arrows path.a2{
+    animation-delay:  -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+.arrows path.a3{
+    animation-delay:  0s;
+    -webkit-animation-delay: 0s;
+}
+.content-container{
+    height: 100vh;
+    background-color: #333;
+
+}
+
+.profile-container{
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-image: url(./aestehiec.avif);
+    background-size:cover;
+}
+
+.profile-content{
+    width: 40%;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+  /* From https://css.glass */
+ background: rgba(255, 255, 255, 0.69);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(1.4px);
+ -webkit-backdrop-filter: blur(1.4px);
+ border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 8px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile-image{
+    width: 130px;
+    height: auto;
+    border-radius: 20%;
+    border: 2px solid #352f69;
+    box-shadow: .01px 2px 5px rgb(37, 37, 37);
+}
+
+.name-text{
+    font-family:'Oswald', sans-serif;
+    font-size: 21px;
+    margin-top: 2px;
+    color: black;
+}
+
+.profile-text{
+    font-family:'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    color: black;
+
+}
+
+.profile-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border:none;
+    background-color: #390794;
+    color: #fff;
+    font-family:'Oswald', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.botoes{
+    display:block;
+    justify-content: space-between;
+}
+
+.divider{
+    width: 90%;
+    border-top: .80px solid rgb(0, 0, 0);
+    margin: 20px 0;
+
+}
+.divider2{
+    width:100%;
+    border-top: .80px solid rgb(59, 37, 255);
+    margin: 0px 0;
+
+}
+
+.icons-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.icon-item{
+    width: auto;
+    height: 70px;
+}
+
+.profile-sinopse{
+    width: 410px;
+    font-family:'Oswald', sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 17px;
+    padding: 20px;
+}
+.container-profile-sinopse{
+    background: rgba(24, 19, 19, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(24, 19, 19, 0.3);
+}
+
+q{
+    font-size: 20px;
+}
