@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 
+a:hover{
+    text-decoration: none;
+    color:#d870db;}
+a{
+    text-decoration: none;
+    color:#fff;
+    transition: 0.5s;
+    
+}
 * {
     margin: 0;
 }
