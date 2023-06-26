@@ -8,14 +8,14 @@
     <title>Portfólio Ycaro Pires FullstackDeveloper</title>
 </head>
 <body>
-    <div class="hero-container">
+    <div id="home" class="hero-container">
         <header>
             <nav>
                 <ul>
-                   <li>Home</li>
-                   <li><a href="#batman">Projetos</a></li>
-                   <li>Tecnologias</li>
-                   <li>Contato</li>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#projects">Projetos</a></li>
+                   <li><a href="#stack">Tecnologias</a></li>
+                   <li><a href="#stack">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,8 +30,8 @@
     <div class="content-container">
         <div class="profile-container">
             <div class="profile-content">
-                <div class="profile-card">
-                    <img class="profile-image" src="./Profile pic certa.jpg".>
+                <div id="stack" class="profile-card">
+                    <img class="profile-image" src="./assets/Profile pic certa.jpg".>
                     <span class="name-text">Ycaro Pires</span>
                     <span class="profile-text">
                        <q> Lembre-se que as pessoas podem tirar tudo de você, menos o seu conhecimento.</q> <cite>Albert einstein.</cite><br>
@@ -53,10 +53,12 @@
                     </div>
                     <div class="divider"></div>
                     <div class="icons-container">                                              
-                        <img class="icon-item-reactjs icon-item" src="./31-315310_react-hexagon-react-js-transparent-background.png">
-                        <img class="icon-item" src="./nodejs.png">
-                        <img style="border-radius: 20px ;" class="icon-item" src="./Javascript.png">                        
-                        <img class="icon-item" src="./css hgtml.png">
+                        <img class="icon-item-reactjs icon-item" src="./assets/31-315310_react-hexagon-react-js-transparent-background.png">
+                        <img class="icon-item" src="./assets/nodejs.png">
+                        <img style="border-radius: 20px ;" class="icon-item" src="./assets/Javascript.png">                        
+                        <img class="icon-item" src="./assets/css hgtml.png">
+                        <img class="icon-item" src="./assets/Ruby_logo.png">
+                        <img class="icon-item" src="./assets/SQL.png">
                         
                     </div>
                 </div>
@@ -65,8 +67,8 @@
             <p class="profile-sinopse">
                 Muito prazer, me chamo Ycaro Pires tenho 20 anos de idade e estou ingressando no mundo da
                 programação, atualmente estou me aperfeiçoando na linguagem Javascript como front-end e back-end
-                utilizando o NodeJS e o framework ReactJS , possuo também conhecimentos em HTML5 , CSS3 , JAVA e
-                falo fluentemente inglês desde os 10 anos de idade . Sou muito dedicado , organizado , resiliente
+                utilizando o NodeJS e o framework ReactJS , possuo também conhecimentos em Ruby e SQL.
+                Falo fluentemente inglês desde os 10 anos de idade , Sou muito dedicado , organizado , resiliente
                 e uma das coisas mais prazerosas para mim é aprender algo novo e me destacar. Sei que vou ser um
                 dos melhores no ramo da tecnologia e busco me desenvolver cada vez mais aprendendo com os erros e
                 trazendo resultados concretos para alcançar tal objetivo .
@@ -79,27 +81,42 @@
     <div class="content-container">
         <div class="project-container">
             <div class="project-content">
-                
+                    <h1 id="projects">PROJETOS:</h1>
                 <div class="position-container right">
                     <div class="project-card">
-                        <image id="batman" class="project-image" src="./BATMAN PROJECT.png" />
-                        <p class="project-text">
-                            Projeto Batman : Este projeto da página do batman é um trabalho realizado com HTML e CSS demonstrando o início das minhas habilidades. O intuito desse projeto é mostrar uma pagina de "vendas de ingresso" ainda sem o implemento de ferramentas de banco de dados ou do Javascript para realizar funções lógicas .
-                        </p>
+                        <image class="project-image image-reverse" src="./assets/JUMPER MOVIE PROJECT.png">
+                            <p class="project-text">
+                                <b style="color: rgb(102, 255, 0);">(Básico)</b> Projeto Website Jumper : Um dos primeiros projetos que realizei, bem mais simples apenas utilizando HTML5, CSS3 demonstrando o ínicio do meu aprendizado com essas tecnologias. O projeto em si representa um site de "venda de ingressos" mas apenas demonstrando a UI que o usuário tem para a compra , ainda sem funcionalidades com back-end e banco de dados.
+                                <b>Link para o repositório do projeto :</b>
+                                <a href="https://github.com/Ycaro-Oleg/Projetos-HTML-CSS" target="_blank">https://github.com/Ycaro-Oleg/Projetos-HTML-CSS</a>
+                            </p>
                     </div>
                 </div>
 
                 <div class="position-container left">
                     <div class="project-card card-reverse">
-                        <image class="project-image image-reverse" src="./JUMPER MOVIE PROJECT.png">
+                        <image class="project-image image-reverse" src="./assets/BATMAN PROJECT.png">
+                            <p class="project-text">
+                                <b style="color: rgb(102, 255, 0);">(Básico)</b> Projeto Website Batman: Segundo projeto que realizei, novamente bem simples porém com retoques no css e html para melhor visualização, feito apenas utilizando HTML5, CSS3 demonstrando a evolução do meu aprendizado com essas tecnologias. O projeto em si representa novamente um site de "venda de ingressos" mas apenas demonstrando a UI que o usuário tem para a compra , ainda sem funcionalidades com back-end e banco de dados. <b>Link para o repositório do projeto :</b>
+                                <a href="https://github.com/Ycaro-Oleg/Projetos-HTML-CSS" target="_blank">https://github.com/Ycaro-Oleg/Projetos-HTML-CSS</a>
+                            </p>
+                    </div>
+                </div>              
+                <div class="position-container right">
+                    <div class="project-card card-reverse">
+                        <a href="https://ycaro-oleg.github.io/StarWarsCharacters/index.html" target="_blank"><image id="batman" class="project-image" src="./assets/Star Wars ProjetoSite.png" /></a>  
                         <p class="project-text">
-                            Projeto Jumper : Este projeto da página do jumper foi um segundo trabalho realizado por mim para demonstrar mais ainda as habilidades com HTML e CSS refazendo como se fosse o projeto Batman mas com outro filme .
+                        <b style="color: rgb(255, 217, 0);">(Intermediário)</b> Projeto StarWars : Projeto voltado para aperfeiçoar meus conhecimentos em javascript principalmente com relação a utilização de APIs públicas para requisição de dados e demonstração de dados em tela para o usuário, Neste projeto listei todos os personagens que se encontram nessa API do star wars chamada SWAPI(The Star Wars API) e os representei em cards utilizando HTML5,CSS3 e Javascript. Para saber mais sobre o código pode entrar no link do meu projeto público no github : <a href="https://github.com/Ycaro-Oleg/StarWarsCharacters" target="_blank">https://github.com/Ycaro-Oleg/StarWarsCharacters</a> ou clicando na imagem do projeto.
+
+                            <b style="color: rgb(255, 238, 0);"> Disclaimer : Por conta do site ser hospedado no github pages as requisições podem demorar um pouco mais do que o esperado !.</b>
                         </p>
                     </div>
-                </div>                                                
+                </div>               
+    
             </div>
         </div>
     </div>
 
 </body>
 </html>
+
