@@ -227,7 +227,7 @@ q{
 .project-container {
     padding-top: 15px;
     width: 100%;
-    height: 200%;
+    height: 400%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,7 +278,14 @@ q{
     height: auto;
     border-radius: 8px;
     padding-right: 30px;
+    transition: transform 1.2s ease; /* Adiciona transição suave para o efeito de zoom */
+    cursor: pointer; /* Muda o cursor para indicar que a imagem pode ser interagida */
+    
 }
+
+.project-image:hover {
+    transform: scale(1.9); /* Aumenta a escala da imagem para 120% do tamanho original */
+  }
 
 .image-reverse {
     left: 20px;
